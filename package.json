@@ -1,6 +1,9 @@
 {
   "author": "Gui Lin <guileen@gmail.com>",
   "name": "sendmail",
+  "bin": {
+    "sendmail": "./bin/repl.js"
+  },
   "description": "Sendmail without setting up SMTP server",
   "version": "1.1.1",
   "repository": {
@@ -12,6 +15,7 @@
     "node": ">=6.0.0"
   },
   "dependencies": {
+    "commander": "^2.10.0",
     "dkim-signer": "^0.2.2",
     "mailcomposer": "^3.12.0"
   },
